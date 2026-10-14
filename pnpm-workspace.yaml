@@ -1,0 +1,8 @@
+packages:
+  - '.'
+
+# unrs-resolver's postinstall selects its prebuilt binding used by the configured ESLint resolver.
+# sharp is unused by this app and remains intentionally blocked.
+allowBuilds:
+  unrs-resolver: true
+  sharp: false
